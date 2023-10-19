@@ -1,5 +1,165 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+@import url(./variables.css);
+
+/* Header */
+
+.header {
+  position: relative;
+  min-height: 668px;
+  padding: 10px;
+  background-image: url(../images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  padding-inline-end: 8px;
+}
+
+.rec {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  filter: drop-shadow(0px 0px 4px #ff0070);
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 23px;
+  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color);
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 25px;
+  height: 23px;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  padding-block-start: 39px;
+}
+
+.header__theme-menu-button {
+  border: none;
+  border: 1px solid transparent;
+  color: var(--accent-color);
+  font-size: 18px;
+  text-transform: lowercase;
+  background-color: transparent;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+  pointer-events: none;
+}
+
+.header__text {
+  padding-block-start: 65px;
+  color: var(--header-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 82.5%;
+
+  text-shadow: 4px 4px 0px var(--accent-color);
+}
+
+.textblock {
+  margin-block-start: 55px;
+}
+
+.title-decor {
+  color: var(--header-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  background-color: var(--accent-color);
+}
+
+/* Конец Header */
+
+/* Начало main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 50px;
+  padding: 40px 10px;
+  background-color: var(--bg-color);
+}
+
+.heading {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+.text__block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-block-start: 20px;
+}
+
+.text__description {
+  color: var(--text-block-color);
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.text__description span {
+  text-shadow: 1px 1px 0 var(--accent-color);
+}
+
+.thin {
+  font-weight: 400;
+}
+
+/* Конец main */
+
+/* Начало Footer */
+
+.footer {
+  position: relative;
+  padding: 10px;
+  min-height: 668px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+/* Конец Footer */
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }

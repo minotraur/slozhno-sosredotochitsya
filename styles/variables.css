@@ -3,9 +3,15 @@
   и их переопределение под различные устройства
 */
 :root {
+  --navigation-text-color: #ff0070;
+  --navigation-text-color-hover: #ff007066;
+  --header-title-text-color: #db00ff;
   --accent-color: #ff0070;
-  --header-color: #db00ff;
-  --header-text-color: #000028;
+  --block-title: #ff0070;
+  --title-text-decor-color: #000028;
   --text-block-color: #f1b2ce;
-  --bg-color: #000028;
+  --decorated-zone-color: #ff0070;
+  --title-text-shadow-color: #ff0070;
+  --background-color: #000028;
+  --background-image: url("../images/cover-image-dark.png");
 }

@@ -74,7 +74,6 @@
 
 .header__theme-menu-button {
   border: none;
-  border: 1px solid transparent;
   border-block-end: 1px solid transparent;
   color: var(--navigation-text-color);
   font-size: 18px;
@@ -173,7 +172,7 @@
 }
 
 .text__block-description a:focus-visible {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-block-color);
 }
 
 .thin {
@@ -207,10 +206,6 @@
 
 /* Конец Footer */
 
-.page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-}
-
 @media (width >= 768px) {
   .header {
     min-height: 1024px;
@@ -220,6 +215,7 @@
   .header__text {
     margin-left: -20px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-block-start: 173px;
   }
 
   .top-right-decoration {
@@ -236,10 +232,6 @@
   }
   .header__theme-menu {
     padding-block-start: 170px;
-  }
-
-  .header__text {
-    padding-block-start: 173px;
   }
 
   .textblock {
@@ -335,6 +327,7 @@
   .footer__text {
     padding-inline-start: 20px;
     padding-block-start: 0;
+    text-shadow: 2px 2px 0px var(--title-text-shadow-color);
   }
 }
 
@@ -417,5 +410,6 @@
 
   .footer__text {
     padding-block-start: 0;
+    text-shadow: 2px 2px 0px var(--title-text-shadow-color);
   }
 }

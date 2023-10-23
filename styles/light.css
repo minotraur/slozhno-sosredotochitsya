@@ -19,7 +19,7 @@
   --title-text-shadow-color: #ff0070;
   --text-block-color: #353430;
   --background-color: #fff1f7;
-  --background-image: url("../images/cover-image-light.png");
+  --background-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .top-right-decoration {
@@ -38,7 +38,7 @@
     --title-text-shadow-color: #ff0070;
     --text-block-color: #353430;
     --background-color: #fff1f7;
-    --background-image: url("../images/cover-image-light.png");
+    --background-image: url(../images/cover-image-light.png);
   }
 
   .top-right-decoration {

@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-.page {
+:root {
   --navigation-text-color: #ff0070;
   --navigation-text-color-hover: #ff007066;
   --header-title-text-color: #db00ff;

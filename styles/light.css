@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  :root {
     --navigation-text-color: #353430;
     --navigation-text-color-hover: #32312d66;
     --header-title-text-color: #ffc2e6;

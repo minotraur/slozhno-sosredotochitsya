@@ -1,7 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-@import url(./variables.css);
-
 .page {
   background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;

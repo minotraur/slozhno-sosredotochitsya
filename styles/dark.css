@@ -10,15 +10,16 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
+  --navigation-text-color: #ff0070;
+  --navigation-text-color-hover: #ff007066;
+  --header-title-text-color: #db00ff;
   --accent-color: #ff0070;
-  --main-bg-color: #000028;
-  --main-text-color: #f1b2ce;
-  --nav-color: #ff0070;
-  --nav-color-hover: #ff007066;
-  --main-heading-color: #000028;
-  --section-heading-color: #ff0070;
-  --header-logo-color: #db00ff;
-  --footer-logo-color: #db00ff;
+  --block-title: #ff0070;
+  --title-text-decor-color: #000028;
+  --text-block-color: #f1b2ce;
+  --title-text-shadow-color: #ff0070;
+  --decorated-zone-color: #ff0070;
+  --background-color: #000028;
 
   background-image: url(../images/cover-image-dark.png);
 }

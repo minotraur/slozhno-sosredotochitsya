@@ -25,5 +25,5 @@
 }
 
 .theme_dark .top-right-decoration {
-  display: block;
+  display: flex;
 }
